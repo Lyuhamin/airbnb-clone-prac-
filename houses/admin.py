@@ -16,9 +16,3 @@ class HouseAsmin(admin.ModelAdmin):
         "price_per_night",
         "pets_allowed",
     )
-
-    search_fields = [
-        "adress_startswith"
-    ]
-
-    list_display_links = ("name", "address")
