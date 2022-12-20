@@ -34,7 +34,7 @@ class Room(models.Model):
     pet_friendly = models.BooleanField(
         default=True,
     )
-    kind - models.CharField(
+    kind = models.CharField(
         max_length=20, 
         choices=RoomKindChoices.choices,
     )
