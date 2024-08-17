@@ -30,7 +30,7 @@ class AmenityAdmin(admin.ModelAdmin):
         "create_at",
         "update_at",
     )
-
+    
     readonly_fields = (
         "create_at",
         "update_at",
